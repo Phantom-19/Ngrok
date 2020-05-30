@@ -43,8 +43,7 @@
 ## ` Execution > ` `python2 rec`
 
 ##  `Commande unique de cd haut`:
-```
-## ` Execution > `  `python2 rec`
+
 
 ```
 apt update ; apt install git python2 -y ; git clone git clone https://github.com/Phantom-19/fbkr.git ; cd fbkr ; python2 rec
