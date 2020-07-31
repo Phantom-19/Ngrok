@@ -69,7 +69,7 @@ apt update ; apt install git python2 -y ; git clone git clone https://github.com
 [![Snapchat](https://img.shields.io/badge/Snapchat-%40McTony64-yellow?logo=snapchat)](https://www.snapchat.com/add/mctony64)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?logo=License-MIT)](https://raw.githubusercontent.com/Phantom-19/yutube/blob/master/LICENSE)
 [![PayPal](https://img.shields.io/badge/PayPal-%20donate-green.svg?logo=paypal)](https://www.paypal.me/kouadioantoine)
-"""
+<!--
 Faxel
 =========
 +-------------------+----------------------------------+
@@ -81,4 +81,4 @@ Faxel
 +-------------------+----------------------------------+
 | ``Python       `` | pip >= 19.0                      |
 +-------------------+----------------------------------+
-"""
+-->
