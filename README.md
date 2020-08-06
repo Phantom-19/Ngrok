@@ -11,9 +11,9 @@
 <p align="center">
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-4.0-green.svg?style=flat-square"></a>
 <a href="https://github.com/Phantom-19/followers"><img title="Abonnés" src="https://img.shields.io/github/followers/Phantom-19?color=blue&style=flat-square"></a>
-<a href="https://github.com/Phantom-19/link/stargazers/"><img title="Étoiles" src="https://img.shields.io/github/stars/Phantom-19/link??color=red&style=flat-square"></a>
-<a href="https://github.com/Phantom-19/link/network/members"><img title="Fourches" src="https://img.shields.io/github/forks/Phantom-19/link??color=red&style=flat-square"></a>
-<a href="https://github.com/Phantom-19/link/watchers"><img title="En train de regarder" src="https://img.shields.io/github/watchers/Phantom-19/link?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/link/stargazers/"><img title="Étoiles" src="https://img.shields.io/github/stars/Phantom-19/Ngrok??color=red&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/link/network/members"><img title="Fourches" src="https://img.shields.io/github/forks/Phantom-19/Ngrok??color=red&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/link/watchers"><img title="En train de regarder" src="https://img.shields.io/github/watchers/Phantom-19/Ngrok?label=Watchers&color=blue&style=flat-square"></a>
 <p align="right">
 <a href="#"><img title="Langage" src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
 </p>
@@ -46,7 +46,7 @@
 
 
 ```
-apt update ; apt install git python2 -y ; git clone git clone https://github.com/Phantom-19/Ngrok.git ; cd fbkr ; python2 ngrok
+apt update ; apt install git python2 -y ; git clone https://github.com/Phantom-19/Ngrok.git ; cd fbkr ; python2 ngrok
 ```
 
 - [x] Terminer la base 
