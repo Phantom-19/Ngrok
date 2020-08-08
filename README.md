@@ -26,7 +26,6 @@
 * `pip2 install asyncio`
 * `pip2 install proxybroker`
 * `pip2 install selenium`
-* `pip2 install chromium`
 * `pip2 install simplejson`
 
 
@@ -34,19 +33,18 @@
 
 
 * `apt update`
-* `apt install git curl python2 python `
+* `apt install git curl python `
 * `git clone https://github.com/Phantom-19/Ngrok.git`
 * `cd Ngrok`
-* `pip2 install mechanize`
-* `pip2 install requests`
 
-## ` Execution > ` `python2 ngrok`
+
+## ` Execution > ` `python3 ngrok`
 
 ##  `Commande unique de cd Ngrok`:
 
 
 ```
-apt update ; apt install git python2 -y ; git clone https://github.com/Phantom-19/Ngrok.git ; cd fbkr ; python2 ngrok
+apt update ; git clone https://github.com/Phantom-19/Ngrok.git ; cd Ngrok ; python3 ngrok
 ```
 
 - [x] Terminer la base 
