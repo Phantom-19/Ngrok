@@ -1,12 +1,12 @@
 clear
 echo ""
-toilet -f pagga         FBKR          | lolcat
+toilet -f pagga         NGROK          | lolcat
 echo ""
-echo "Mise a jour de FBKR en cours........." | lolcat
+echo "Mise a jour de Ngrok en cours........." | lolcat
 echo ""
 git pull origin master
 echo ""
-echo "Mise à jour de FBKR terminer........." | lolcat
+echo "Mise à jour de Ngrok terminer........." | lolcat
 echo ""
 figlet -f small Mise a jour ! | lolcat
 echo ""
