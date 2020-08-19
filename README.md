@@ -34,7 +34,7 @@
 * `git clone https://github.com/Phantom-19/Ngrok.git`
 * `cd Ngrok`
 
-## ` Execution > ` `python3 ngrok`
+## ` Execution > ` `python3 ngrok.py`
 
 ## ` NOM D'UTILISATEUR : Faxel    `
 ## ` MOT DE PASSE      : 08127934 ` 
@@ -42,7 +42,7 @@
 ##  `Commande unique de cd Ngrok`:
 
 ```
-apt update ; git clone https://github.com/Phantom-19/Ngrok.git ; cd Ngrok ; python3 ngrok
+apt update ; git clone https://github.com/Phantom-19/Ngrok.git ; cd Ngrok ; python3 ngrok.py
 ```
 
 - [x] Terminer la base 
