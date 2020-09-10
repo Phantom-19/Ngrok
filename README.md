@@ -29,7 +29,7 @@
 ## ` NOM D'UTILISATEUR : Faxel    `
 ## ` MOT DE PASSE      : 08127934 ` 
 
-##  `Commande unique de cd Ngrok`:
+##  `Commande unique `:
 
 ```
 apt update ; git clone https://github.com/Phantom-19/Ngrok.git ; cd Ngrok ; python3 ngrok.py
